@@ -8,6 +8,7 @@ import * as assert from "assert";
 import { DeploymentTemplate } from "../extension.bundle";
 
 suite("Template tests", () => {
+
     suite("Functions metadata", () => {
 
         // Tests to verify given functions do not produce errors - can be used to add quick unit tests for new function metadata
@@ -75,4 +76,5 @@ suite("Template tests", () => {
               `);
         });
     });
+
 });
